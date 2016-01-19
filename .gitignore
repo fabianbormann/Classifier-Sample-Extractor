@@ -58,6 +58,6 @@ docs/_build/
 # PyBuilder
 target/
 
-positives/*
-negatives/*
-data/*
+positives/*.*
+negatives/*.*
+data/*.*
