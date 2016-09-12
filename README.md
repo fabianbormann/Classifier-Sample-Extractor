@@ -13,7 +13,7 @@
 
 ## Setup
 * Update the properties in sample_extractor.py line 71 
-  `cascade.detectMultiScale(image, scaleFactor=1.2, minNeighbors=10,minSize=(20,20), maxSize=(45,45))` the sizes should fit to your trining samples
+  `cascade.detectMultiScale(image, scaleFactor=1.2, minNeighbors=10,minSize=(20,20), maxSize=(45,45))` the sizes should fit to your training samples
 * My images use the name convention data/image-xxx.png so that your positives and negatives will be named 'xxx_yyy_zzz.png' yyy and zzz describes the position (center) of this subimage in the image-xxx.png. If you don't want to use this feature simply edit line 37 and 39.
 
 ## Run
